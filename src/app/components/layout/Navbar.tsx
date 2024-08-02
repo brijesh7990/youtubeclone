@@ -15,8 +15,8 @@ const Navbar = () => {
     <>
       <div className="container mx-auto flex justify-between items-center h-navbar-height-brijesh sticky top-0 left-0">
         <div className="flex gap-2 p-2 items-center">
-          <RxHamburgerMenu className="block" size={30} />
-          <div className="flex gap-1 items-center">
+          <RxHamburgerMenu className="block cursor-pointer" size={30} />
+          <div className="flex gap-1 items-center cursor-pointer">
             <IoLogoYoutube color="red" size={30} />
             <h1 className="text-2xl hidden xs:block">YouTube</h1>
           </div>
