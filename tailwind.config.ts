@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      spacing: {
+        "navbar-height-brijesh": "65px",
+        "sidebar-height-brijesh": "calc(100vh - 70px)",
+      },
+      screens:{
+        "xs": "360px"
+      }
     },
   },
   plugins: [],
