@@ -16,10 +16,14 @@ const config: Config = {
       spacing: {
         "navbar-height-brijesh": "65px",
         "sidebar-height-brijesh": "calc(100vh - 70px)",
+        "videocomponent-height": "calc(100vh - 140px)",
       },
-      screens:{
-        "xs": "360px"
-      }
+      width: {
+        "videocomponent-width": "calc(100% - 300px)",
+      },
+      screens: {
+        xs: "360px",
+      },
     },
   },
   plugins: [],

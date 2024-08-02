@@ -13,7 +13,7 @@ const Furthersidebar = ({
           borderRadius: "10px",
         }}
       >
-        <span className={`flex justify-center text-xl w-[100%] cursor-pointer`}>
+        <span className={`flex justify-center text-xl cursor-pointer`}>
           {content}
         </span>
       </div>

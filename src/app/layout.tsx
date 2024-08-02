@@ -20,13 +20,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <div className="w-[95%] mx-auto my-3 flex items-center gap-5">
-          <div className="lg:w-[208px] sm:w-[180px] hidden sm:block  w-[10vw] overflow-auto fixed top-[70px] border border-yellow-400">
+        <div className="mx-auto container flex gap-2">
+          <div className="">
             <Sidebar />
           </div>
-          <div className="fixed sm:left-[220px] lg:left-[250px] xl:left-[265px] xs:left-0 xs:w-[100%] sm:w-[85%] w-[100%]  border border-gray-200 top-[70px]">
-            {children}
-          </div>
+          <div>{children}</div>
         </div>
       </body>
     </html>

@@ -8,7 +8,7 @@ import {
 const Sidebar = () => {
   return (
     <>
-      <div className="overflow-auto h-sidebar-height-brijesh ml-3">
+      <div className="overflow-auto h-sidebar-height-brijesh ml-3 hidden sm:block">
         <div>
           {mainsection.map((item, index) => {
             const IconComponent = item.icon;
