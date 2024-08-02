@@ -107,6 +107,26 @@ const MoreFromYoutube = [
     icon: SiYoutubemusic,
     name: "Youtubemusic",
   },
+  {
+    icon: SiYoutubemusic,
+    name: "Youtubemusic",
+  },
+  {
+    icon: SiYoutubemusic,
+    name: "Youtubemusic",
+  },
+  {
+    icon: SiYoutubemusic,
+    name: "Youtubemusic",
+  },
+  {
+    icon: SiYoutubemusic,
+    name: "Youtubemusic",
+  },
+  {
+    icon: SiYoutubemusic,
+    name: "Youtubemusic",
+  },
 ];
 
 export { mainsection, yousection, subscriptions, Explore, MoreFromYoutube };
